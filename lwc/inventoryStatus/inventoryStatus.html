@@ -1,0 +1,9 @@
+template>
+    <lightning-card title="Inventory Status" icon-name="custom:custom63">
+        <template for:each={inventoryItems} for:item="item">
+            <div key={item.Id}>
+                <p>{item.Product__r.Name} - Quantity: {item.Quantity__c}</p>
+            </div>
+        </template>
+    </lightning-card>
+</template
