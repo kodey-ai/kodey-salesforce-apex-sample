@@ -27,7 +27,7 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
     step 1: Using GithubCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
+    step 2: Using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle operations related to products, such as creating, updating, and deleting products in database.
     Example for creating a New product is given below, follow the similar approach for other opreations as well.
 
@@ -45,24 +45,24 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
         }}
     }}
 
-    step 3: using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
+    step 3: Using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage inventory levels, including adding inventory, updating quantities, and retrieving inventory information in database.
 
-    step 4: using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
+    step 4: Using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle order processing, including creating orders, adding items to orders, and updating order status in database.
 
-    step 5: using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
+    step 5: Using GithubCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage order items, including creating order items, updating quantities, and calculating subtotal in database.
 
-    step 6: using GithubCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
+    step 6: Using GithubCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
     Assume the file name by yourself, The Lightning Web Component should be a component to display a list of products with their details, including name, price, and quantity in stock in database.
     There must be html, js controller for the LWC.
 
-    step 6: using GithubCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
+    step 7: Using GithubCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
     Assume the file name by yourself, The Lightning Web Component should be a component to show real-time inventory status, highlighting low stock items or items out of stock in database.
     There must be html, js controller for the LWC.
 
-    step 7: using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
+    step 8: Using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
 
 ```
 
@@ -80,7 +80,7 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
     step 1: Using AzureDevopsBranchesCreateBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
+    step 2: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle operations related to products, such as creating, updating, and deleting products in database.
     Example for creating a New product is given below, follow the similar approach for other opreations as well.
 
@@ -98,26 +98,26 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
         }}
     }}
 
-    step 3: using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
+    step 3: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage inventory levels, including adding inventory, updating quantities, and retrieving inventory information in database.
 
-    step 4: using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
+    step 4: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle order processing, including creating orders, adding items to orders, and updating order status in database.
 
-    step 5: using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
+    step 5: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage order items, including creating order items, updating quantities, and calculating subtotal in database.
 
-    step 6: using AzureDevopsRepositoryCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
+    step 6: Using AzureDevopsRepositoryCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
     Assume the file name by yourself, The Lightning Web Component should be a component to display a list of products with their details, including name, price, and quantity in stock in database.
     There must be html, js controller for the LWC.
 
-    step 6: using AzureDevopsRepositoryCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
+    step 7: Using AzureDevopsRepositoryCreateNewFile tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
     Assume the file name by yourself, The Lightning Web Component should be a component to show real-time inventory status, highlighting low stock items or items out of stock in database.
     There must be html, js controller for the LWC.
 
-    step 7: using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
+    step 8: Using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
 
-    step 8: using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
+    step 9: Using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
 ```
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Making Project That hits API requests extract data and define serverless file)
@@ -132,7 +132,7 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
     step 1: Using BitBucketCreateNewBranch tool, Create a new branch with name <branch name to create> first and then do the steps below.
 
-    step 2: using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
+    step 2: Using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to ProductService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle operations related to products, such as creating, updating, and deleting products in database.
     Example for creating a New product is given below, follow the similar approach for other opreations as well.
 
@@ -150,26 +150,26 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
         }}
     }}
 
-    step 3: using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
+    step 3: Using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to InventoryService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage inventory levels, including adding inventory, updating quantities, and retrieving inventory information in database.
 
-    step 4: using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
+    step 4: Using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderService.
     Assume the file name by yourself, The class should be a service class that will have functions to handle order processing, including creating orders, adding items to orders, and updating order status in database.
 
-    step 5: using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
+    step 5: Using BitBucketWriteCode tool, Create a new file to store the Apex classes for the Inventory Management System related to OrderItemService.
     Assume the file name by yourself, The class should be a service class that will have functions to manage order items, including creating order items, updating quantities, and calculating subtotal in database.
 
-    step 6: using BitBucketWriteCode tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
+    step 6: Using BitBucketWriteCode tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to ProductList.
     Assume the file name by yourself, The Lightning Web Component should be a component to display a list of products with their details, including name, price, and quantity in stock in database.
     There must be html, js controller for the LWC.
 
-    step 6: using BitBucketWriteCode tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
+    step 7: Using BitBucketWriteCode tool, Create files to store the Lightning Web Component (LWC) for the Inventory Management System related to InventoryStatus.
     Assume the file name by yourself, The Lightning Web Component should be a component to show real-time inventory status, highlighting low stock items or items out of stock in database.
     There must be html, js controller for the LWC.
 
-    step 7: using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
+    step 8: Using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "APEX INVENTORY MANAGEMENT SYSTEM".
 
-    step 8: Update this jira issue status to done.
+    step 9: Update this jira issue status to done.
 
 ```
 
@@ -187,7 +187,7 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
 ### Jira Issue and Bitbucket Repo
 ```
-   Get the issue with id <issue_id> from bitbucket repo and do as the description of the issue says.
+   Get the issue with id <issue_id> from jira and do as the description of the issue says.
 ```
 
 ## Confirming Successful Sample Outputs
