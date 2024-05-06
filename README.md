@@ -17,6 +17,10 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
 ### SAMPLE PROMPT - Github Tools (Salesforce APEX Inventory Management Project)
 ```
+    platform: github
+    
+    repository-to-work-on: kodey-salesforce-apex-sample
+
     branch name to create: feature/apex-sample-project-v1
 
     Information to agent: Do as the steps below are defined one by one. You are working in github repo so make sure to use tools related to github repo. Do not write comments in the code. Write the code logic inside the methods of classes. Don't leave placeholders in the code. You are being asked to write full code with no comments and no placeholders.
@@ -68,6 +72,10 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
 ### SAMPLE PROMPT - Azure DevOps Tools (Salesforce APEX Inventory Management Project)
 ```
+    platform: azure
+    
+    repository-to-work-on: kodey-salesforce-apex-sample
+    
     branch name to create: feature/apex-sample-project-v1
 
     Information to agent: Do as the steps below are defined one by one. You are working in azure repo so make sure to use tools related to azure repo.
@@ -122,6 +130,10 @@ In this sample, we will explore how Kodey.ai can create projects for salesforce 
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Making Project That hits API requests extract data and define serverless file)
 ```
+    platform: bitbucket
+    
+    repository-to-work-on: kodey-salesforce-apex-sample
+
     branch name to create: feature/apex-sample-project-v1
 
     Information to agent: Do as the steps below are defined one by one. You are working in bitbucket repo so make sure to use tools related to bitucket repo. Do not write comments in the code. Write the code logic inside the methods of classes. Don't leave placeholders in the code. You are being asked to write full code with no comments and no placeholders.
